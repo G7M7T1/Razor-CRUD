@@ -1,0 +1,16 @@
+{
+  "name": "linkweb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "npx tailwindcss -i ./Link/wwwroot/css/tailwind.css -o ./Link/wwwroot/css/site.css --watch",
+    "build": "tailwind build ./Link/wwwroot/css/tailwind.css -o ./Link/wwwroot/css/site.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.2.1"
+  }
+}
